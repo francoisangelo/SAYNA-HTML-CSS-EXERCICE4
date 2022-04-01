@@ -1,0 +1,267 @@
+@font-face{
+    font-family:far_from_Homecoming;
+    src: url(../Far-From\ Homecoming\ Updated.otf)
+}
+
+
+.body{ 
+    padding: 2% 10%;
+    margin: auto;
+}
+
+:root{
+--header: #b11313;
+--jaune: #F1C530;
+--blue: #114C92;
+--black: #000000;
+--white:#FFFFFF;
+}
+.logo{
+    margin-left: 150px;
+    padding: 20px;
+}
+
+.navbar{
+    background-color: #b11313;
+    color: #FFFFFF;
+}
+
+
+.footer{
+background-color: var(--black);
+color: #FFFFFF;
+}
+
+.foot{
+    padding: 2% 10% ;
+    color: #FFFFFF;
+
+}
+.div a{
+    padding: 30px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+.mobile{
+padding: 2%;
+}
+#inputgroup{
+    width:20%;
+    height: 30px;
+    background-color: #b11313;
+    border-radius: 50px;
+    border-color:#FFFFFF ;
+}
+#inputgroupjaune{
+    background-color: #F1C530;
+    width:20%;
+    height: 30px;
+    border-radius: 50px;
+    border-color:#FFFFFF;
+
+}
+a{
+text-decoration: none;
+color: #FFFFFF;
+
+}
+.logo{
+    color: #FFFFFF;
+}
+.image{
+    border-radius: 30px;
+}
+.text{
+   color:#98a5a5;  
+
+}
+.application img{
+    background-color: #b11313;
+    width:30px;
+    color: #b11313;
+}
+.applicationjaune img{
+    background-color: #F1C530; 
+    width:30px;
+}
+
+.card{
+    background-color: inherit;
+    border: 0;
+}
+.card-body{
+    text-align: justify;
+    text-justify: distribute-all-lines;
+   
+    
+}
+#héros{
+    border: #b11313;
+    border-radius: 10px;
+    color:#b11313;
+    width: 20px;
+    padding:10px;
+    background-color:#FFFFFF;
+}
+.hero-spiderman{
+padding-top: 25%;
+}
+.SPIDERMAN{
+    
+    padding-bottom: 50px;
+    font-family:far_From_Homecoming;
+}
+#Adversaires{
+    width: 20%;
+    padding: 10px;
+    border-color: #FFFFFF;
+    border-radius: 10px;
+    background-color: #b11313;
+    color: #FFFFFF;
+}
+.text{
+    color: #FFFFFF;
+    padding-top: 30px;
+
+
+}
+.section{
+    padding: 2% 10%;
+
+}
+.adversaire  {
+    border-radius: 50px;
+    background-color: #FFFFFF;
+    color: #b11313;
+    width: 40%;
+    padding: 20px;
+}
+.colorspiderman{
+    background-color: #114C92;
+    width: 100%;
+}
+.formulaire{ 
+    width: 100%;
+    padding: 5px;
+}
+#bouton1{
+    border-radius: 50px;
+    width: 70%;
+    
+}
+#bouton{
+    color: #98a5a5;
+    border-radius: 10px;
+    padding:2%;
+    width: 20%;
+    border:#FFFFFF;
+    box-shadow: #b11313;
+    background-color:#114C92;
+}
+#Adrres{
+    border-radius: 50px;
+    width: 70%;
+    color:#98a5a5;
+    padding: 2%;
+    border:#FFFFFF;
+    box-shadow: #FFFFFF;
+background-color: #b11313;
+}
+.adrres{
+    width: 100%;
+    padding: 5px;
+}
+.inscrit{
+    border-radius: 50px;
+    padding: 10px;
+    width:25%;
+    color: #b11313;
+background-color: #FFFFFF;
+}
+.image6{
+ 
+ padding: 50px 10px ;
+
+
+     
+}
+.bonus{
+background-image: url('../Illustration/img35.png');
+width: 100%;
+height: 700px;
+}
+.cooming{
+    color:#FFFFFF ;
+    padding-top: 550px;
+    padding-left: 10%;
+}
+/*** ADVERSAIRES***/
+ul{
+    list-style-type: none;
+}
+.jauneadvertise {
+background-color: #F1C530;
+}
+.lien{
+    text-align: center;
+    display:inline-flex;
+    padding: 2px;
+}
+.Supervilans{
+    background-image: url('../Illustration/img7.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 100%;
+    height: 850px;
+    color: #FFFFFF;
+    
+}
+.Carateresupervilans {
+    padding-top: 25%;
+    padding-left: 10%;
+    
+}
+.card-group{
+    background-color: #F1C530;
+    
+    
+}
+.card{
+    background-color: #F1C530;
+    border: 6px solid black;
+    border-radius: 20px;
+}
+.col{
+    border-radius: 30px;
+    
+}
+.Apropos{
+    background-color: #F1C530;
+}
+.rempliformulaire{
+ padding-left: 400px;
+ padding-top: 40%;
+}
+.identité{
+    background-color: #b11313;
+    width: 100%;
+    padding: 5px;
+    border-radius: 20%;
+}
+#name{
+    padding: 5%;
+    background-color: #b11313;
+    border: 1px solid white;
+    border-radius:50px;
+}
+.bgblue{
+    background-color: #114C92;
+    
+}
+#text{
+    border-radius: 50px;
+    border: 1px solid white;
+    background-color: #114C92;
+    padding: 10px;
+    color: #FFFFFF;
+}
