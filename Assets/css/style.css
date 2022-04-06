@@ -20,6 +20,10 @@
     margin-left: 150px;
     padding: 20px;
 }
+.nav-header{
+    position:sticky;
+    top: 0;
+}
 
 .navbar{
     background-color: #b11313;
@@ -185,6 +189,7 @@ background-color: #FFFFFF;
 
      
 }
+/***bonus.css***/
 .bonus{
 background-image: url('../Illustration/img35.png');
 width: 100%;
@@ -216,9 +221,14 @@ background-color: #F1C530;
     color: #FFFFFF;
     
 }
+.lezard{
+text-align: center;
+
+}
 .Carateresupervilans {
-    padding-top: 25%;
+    padding-top: 15%;
     padding-left: 10%;
+    transform: scaleX(-1);
     
 }
 .card-group{
@@ -229,14 +239,18 @@ background-color: #F1C530;
 .card{
     background-color: #F1C530;
     border: 6px solid black;
-    border-radius: 20px;
+    border-radius: 30px;
 }
 .col{
     border-radius: 30px;
     
 }
 .Apropos{
+    background-image: url("../Illustration/img5.png");
     background-color: #F1C530;
+    background-repeat: no-repeat;
+    transform: scaleX(-1);
+    background-position: X(-1);
 }
 .rempliformulaire{
  padding-left: 400px;
@@ -251,8 +265,9 @@ background-color: #F1C530;
 #name{
     padding: 5%;
     background-color: #b11313;
-    border: 1px solid white;
+    border: 2px solid white;
     border-radius:50px;
+    
 }
 .bgblue{
     background-color: #114C92;
@@ -265,3 +280,97 @@ background-color: #F1C530;
     padding: 10px;
     color: #FFFFFF;
 }
+/***Héros-page***/
+.heropage{
+    background-image: url('../Illustration/img19.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:100%;
+    width: 100%;
+    height: 600px;
+}
+.pagehéros{
+    background-color: #114C92;
+    color: #FFFFFF;
+}
+.video{
+    padding: 10% 5%;
+}
+.applicationhéros img{
+    background-color: #114C92;
+    width: 30px;
+}
+#inputgrouphéros{
+    background-color: #114C92;
+    border-radius: 50px;
+    width: 150px;
+}
+.hero{
+
+    padding-top: 10%;
+;
+}
+.image-heros20{
+    background-image: url(../Illustration/img20.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 100%;
+    height: 350px;
+    
+}
+#jamais-suel{
+    margin-left: 40%;
+    margin-top: -13%;  
+}
+.meilleurs{
+    padding-top: 45%;
+}
+.troisfilles{
+margin-left: 10%;
+}
+.unejeunefille{
+    margin-left: 10%;
+}
+.personnes-avengers{
+padding-bottom: 10%;
+}
+.personnes-avengers-fille{
+    margin-top: 10%;
+    margin-bottom: 40px;
+}
+.Avengers-text{
+    padding-top: 2px;
+    padding-left: 5%;
+}
+.imagehero32{
+    background-image: url("../Illustration/img32.png");
+    background-color: #b11313;
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: 50%;
+}
+.image30hero{
+    padding-top: 28%;
+}
+.terminationpagehero{
+    background-image: url("../Illustration/img33.png");
+    background-position: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.coloumnfin{
+background-color: #114C9281;
+    padding-left: 40%;
+    top: 5%;
+   padding-left: 50%;
+}
+.texthero{
+    text-align: justify;
+    text-justify: distribute-all-lines;
+
+}
+.chacunspidey{
+    padding-left: 25%;
+}
+@media screen and(max-width:768px)
